@@ -24,7 +24,7 @@ body {
 
 .container {
     width: 25%;
-    height: 50%;
+    height: auto;
 
     background-color: white;
     border-radius: 20px;
@@ -40,7 +40,7 @@ body {
 
 .logo {
     width: 80%;
-    height: 45%;
+    height: auto;
 
     display: flex;
     align-items: center;
@@ -101,6 +101,7 @@ button {
 @media only screen and (max-width: 1600px) {
     .container {
         width: 40%;
+        height: auto;
         gap: 30px;
     }
     
@@ -130,6 +131,7 @@ button {
 
 @media only screen and (max-width: 801px) {
     .container {
+        height: auto;
         width: 60%;
         gap: 30px;
     }
@@ -159,6 +161,7 @@ button {
 
 @media only screen and (max-width: 376px) {
     .container {
+        height: auto;
         width: 100%;
         border-radius: 0;
         gap: 5px;
