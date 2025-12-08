@@ -441,7 +441,7 @@ textarea {
 
 }
 
-@media only screen and (max-width: 1600px) {
+@media only screen and (min-width: 578px)and (max-width: 1200px) {
 
 header {
     padding: 20px 40px;
@@ -490,3 +490,4 @@ form {
     font-size: 14px;
 }
 }
+
