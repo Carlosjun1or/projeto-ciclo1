@@ -8,7 +8,7 @@ function logar() {
     } else {
         /* Valida login e senha do Usuário: */
         if (
-            login == "123" &&
+            (login == "123") &&
             (senha == "123")
         ) {
             /* Sucesso, redireciona para pag orcamentos.html */
