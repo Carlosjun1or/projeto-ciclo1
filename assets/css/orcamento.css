@@ -438,4 +438,55 @@ textarea {
     right: 0;
     bottom: -20px;
     z-index: 1;
+
+}
+
+@media only screen and (max-width: 1600px) {
+
+header {
+    padding: 20px 40px;
+}
+
+img.logo {
+    width: 45px;
+}
+
+img.user {
+    width: 25px;
+}
+/*fundo*/
+
+.container-orcamento{
+    width: 80%;
+    height: 75%;
+}
+.container-orcamento nav ul {
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.container-orcamento .orcamento-display {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+.container-orcamento nav .linha-nav {
+    width: 90%;
+}
+/*form*/
+
+
+
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 18px;
+    padding: 15px;
+    border-radius: 12px;
+    width: 90%;
+}
+.confirmar,.abrindo,.arquivar,.adicionar,.total{
+    padding: 10px 15px;
+}
+.botoes{
+    font-size: 14px;
+}
 }
